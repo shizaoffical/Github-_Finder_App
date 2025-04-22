@@ -1,0 +1,38 @@
+
+
+
+@media(min-width:300px) and (max-width:700px) {
+
+    .user .user2{
+    
+        height: 30rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .user2-1 img{
+        height: 55%;
+        width: 30%;
+        border-radius: 50%; 
+     }
+     .user2-1{
+        height: 14rem;
+          width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .user2-2{
+        width: 100%;
+        padding-left: 1rem;
+        height: 14rem;    
+     }
+     .user3-1{
+        padding: 7px 0;
+        display: flex;
+        flex-wrap: wrap;
+     }
+}
