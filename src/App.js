@@ -10,6 +10,7 @@ function App() {
    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />}/>
+      {/* : user id fetch data from specific id  */}
       <Route path=':userId' element={<User />} />
     </Routes>
    </BrowserRouter>
